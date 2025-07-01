@@ -1,0 +1,21 @@
+import stlyes from './styles.module.css';
+
+export default function BandTour() {
+    
+    function listConutry() {
+        return (
+            <div>
+                <h2>World Tour Dates</h2>
+                <ul className={stlyes.listConutry}>
+                    <li>🇺🇸 New York City, US - Madison Square Garden</li>
+                    <li>🇬🇧 London, UK - Wembley Stadium</li>
+                    <li>🇩🇪 Munich, DE - Zenith Halle</li>
+                    <li>🇯🇵 Tokyo, JP - Budokan</li>
+                    <li>🇦🇺 Melbourne, AU - The Forum</li>
+                </ul>
+            </div>
+        );
+    }
+
+    return <>{listConutry()}</>;
+}

@@ -23,7 +23,7 @@ a:hover {
 body {
     margin: 0;
     display: flex;
-    place-items: center;
+    /* place-items: center; */
     min-width: 320px;
     min-height: 100vh;
 }
@@ -65,4 +65,281 @@ button:focus-visible {
 
 .App {
   color: #72a24d;
+}
+
+
+.post {
+    border: 6px solid hsl(240, 17%, 42%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 470px;
+}
+.user-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 7px 0;
+    border-bottom: 2px solid;
+}
+#profile-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.like-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.like-button {
+    width: max-content;
+    display: inline;
+    padding: 0;
+    cursor: pointer;
+    user-select: none;
+}
+.like-button > img {
+    width: 75px;
+}
+.like-info > p {
+    width: 75px;
+    text-align: left;
+}
+#follow-button {
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px;
+    width: 87px;
+    cursor: pointer;
+}
+.following {
+    background-color: hsl(240, 3%, 94%);
+    color: grey;
+}
+.not-following {
+    background-color: #40a9ff;
+    color: #fff;
+}
+#post-img {
+    height: 470px;
+}
+.imgCity {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 15px;
+    transition: ease-in-out 0.5s;
+}
+.imgCity:hover {
+    width: 300px;
+    height: 225px;
+    transition: ease-in-out 0.5s;
+}
+.not-read::before {
+    content: "🔴 ";
+}
+.app {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+.trending {
+    margin-top: 20px;
+}
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.movie {
+    width: 150px;
+    margin: 0 10px 20px 0;
+    border: 2px solid transparent;
+    transition: ease-in-out 0.5s;
+}
+.movie:hover {
+    border: 2px solid white;
+}
+.image-wrap {
+    height: 225px;
+}
+.movie img {
+    width: 100%;
+    border-radius: 5px;
+}
+.movie-info {
+    padding: 8px 0;
+}
+.movie-info h3 {
+    font-size: 16px;
+    margin: 0;
+}
+.shopping-list {
+  text-align: center;
+  border: 3px solid lightblue;
+  border-radius: 5px;
+  width: 400px;
+  margin: auto;
+}
+
+.shopping-item {
+  width: 50%;
+  margin: auto;
+}
+
+.item-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style for the item name */
+.shopping-item strong {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+/* Style for the buttons */
+.shopping-item button {
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  padding: 0;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+/* Style for the quantity display */
+.shopping-item .quantity {
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+/* Style for the plus and minus buttons */
+.shopping-item .btn-decrement {
+  color: #ff6347;
+}
+
+.shopping-item .btn-increment {
+  color: #32cd32;
+}
+.tooltip {
+    background-color: #333;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+    position: relative;
+    margin-top: 8px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+.image-div {
+  width: 50%;
+  margin: auto;
+}
+
+.picture-frame {
+  border: 7px solid #fdd521;
+  padding: 10px; /* Adjust padding as needed */
+}
+
+.picture-frame img {
+  width: 100%;
+  display: block;
+}
+#volume-bar-empty-space {
+  width: 200px;
+  height: 20px;
+  background-color: lightgray;
+  position: relative;
+      margin: 0 auto;
+}
+
+#volume-bar {
+  height: 100%;
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container {
+  max-width: 450px;
+  margin: auto;
+  margin-top: 10%;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid grey;
+}
+
+.hero-image {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.hero-image img {
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+  margin-top: 20px;
+  width: 50%;
+  margin: auto;
+}
+
+.description h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.description p {
+  font-size: 16px;
+  color: #666;
+  text-align: left;
+}
+
+.buttons-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.interested-button,
+.going-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease-in-out,
+    transform 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+}
+
+.interested-button:hover,
+.going-button:hover {
+  background-color: #f0f0f0;
+}
+
+.interested-button.hovered,
+.going-button.hovered {
+  transform: scale(1.1);
+}
+
+.interested-button:focus,
+.going-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }

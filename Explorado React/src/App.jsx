@@ -1,10 +1,17 @@
-import React from "react";
+import './App.css';
 
-export function App() {
+import Post from './Post';
+import BandTour from './BandTour';
+import TheJS from './TheJS';
+import TravelGallery from './TravelGallery';
+
+export default function App() {
     return (
-        <div className="App">
-            <h1>Hello React.</h1>
-            <h2>Start editing to see some magic happen!</h2>
-        </div>
+        <>
+            <Post />
+            <BandTour />
+            <TheJS />
+            <TravelGallery />
+        </>
     );
 }

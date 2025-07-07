@@ -1,0 +1,25 @@
+.helloWorld {
+    background-color: #11353e80;
+    border-radius: 1rem;
+    color: #111e23;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 2rem 1rem;
+}
+.listConutry {
+    list-style: none;
+    padding: 0;
+    align-self: flex-start;
+    text-align: left;
+}
+.listConutry li { align-self: flex-start; }
+.listConutry li::before { content: '🧭'; }
+
+.c-article {
+    background: #ffffff2a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    max-width: 800px;
+    text-align: left;
+}

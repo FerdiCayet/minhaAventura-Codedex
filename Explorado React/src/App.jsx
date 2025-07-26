@@ -18,6 +18,7 @@ import VolumeControl from './VolumeControl';
 import EventInvitation from './EventInvitation';
 import Header from './Header';
 import Footer from './Footer';
+import ButtonClickColor from './ButtonClickColor';
 
 export default function App() {
     return (
@@ -40,6 +41,7 @@ export default function App() {
             <EventInvitation />
             <Header />
             <Footer />
+            <ButtonClickColor/>
         </>
     );
 }

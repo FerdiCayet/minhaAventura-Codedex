@@ -1,12 +1,27 @@
-# React + Vite
+# Explorando React na CodeDex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório reúne meus exercícios e experimentos práticos em **React.js**, feitos durante meus estudos na plataforma CodeDex.
 
-Currently, two official plugins are available:
+Cada arquivo representa um pequeno desafio ou ideia para entender melhor:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Componentes funcionais
+- Props e state
+- Eventos (`onClick`, `onChange`)
+- Renderização condicional
+- Hooks como `useState`
+- Comportamentos de interface (botões, likes, listas, quizzes, galerias)
 
-## Expanding the ESLint configuration
+Aqui não existe código perfeito. Existe **código em evolução**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Por que este projeto existe
+
+Estou aprendendo React passo a passo, testando ideias, errando, corrigindo e entendendo como a interface reage a mudanças de estado.
+
+Este repositório é meu espaço de treino, onde transformo teoria em código.
+
+---
+
+### Fonte de estudo
+
+Plataforma CodeDex – trilha de React  
+https://www.codedex.io/react
